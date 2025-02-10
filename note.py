@@ -7,7 +7,7 @@
         print("incorrect password")
     Login("secrets") """
 
-def temp(x):
+""" def temp(x):
     if x >80:
          print("too hot")
     elif x > 60:
@@ -15,4 +15,5 @@ def temp(x):
     else:
         print("Too Cold")
 x = int(input("what da the temp"))
-temp(x)
+temp(x) """
+
