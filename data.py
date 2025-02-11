@@ -32,15 +32,15 @@ else:
  """
 
 """ x = "test"
-print(f"hello {x}")
+print(f"hello {x}") """
 
-temp = 75
+""" temp = 30
 if temp > 68:
     print('warm')
 elif temp == 68:
     print('perfect')
 else:
-    print('cold') """
+    print('cold')  """
 
 """ number = 10
 if number % 2 == 0:
@@ -49,18 +49,14 @@ else:
     print ("odd") """
 
 service = ("ok")
-bill = 100
-
-def calculate_tip(bill, service):
-    if service == ("bad") :
-        tip_percentage = 0
-    elif service == ("ok") : 
-        tip_percentage = 0.15
-    elif service == ("good") :
-        tip_percentage = 0.2
-    elif service == ("great") :
-        tip_percentage = 0.25
-    else : 
-        return  ("Invalid service level. Please choose from 'bad', 'okay', 'good', or 'great'.")
-
+if service == ("bad") :
+        print =  0
+elif service == ("ok") : 
+        print = 0.15
+elif service == ("good") :
+        print = 0.2
+elif service == ("great") :
+        print = 0.25
+else : 
+    print  ("Invalid service level. Please choose from 'bad', 'okay', 'good', or 'great'.") 
 
