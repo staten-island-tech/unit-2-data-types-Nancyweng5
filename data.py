@@ -48,15 +48,24 @@ if number % 2 == 0:
 else:
     print ("odd") """
 
-service = ("ok")
-if service == ("bad") :
-        print =  0
-elif service == ("ok") : 
-        print = 0.15
-elif service == ("good") :
-        print = 0.2
-elif service == ("great") :
-        print = 0.25
-else : 
-    print  ("Invalid service level. Please choose from 'bad', 'okay', 'good', or 'great'.") 
+""" def calculate_tip(bill, service):
+    if service == "bad":
+        tip_percentage = 0
+    elif service == "ok":
+        tip_percentage = 0.15
+    elif service == "good":
+        tip_percentage = 0.2
+    elif service == "great":
+        tip_percentage = 0.25
+    else:
+        return "Invalid service level. Please choose from 'bad', 'okay', 'good', or 'great'."
+    
+    tip = bill * tip_percentage
+    return f"Tip for {service} service: ${tip:.2f}"
+bill = float(input("Enter the bill amount: $"))
+service = input("Enter the service rating (bad, ok, good, great): ").strip()
+tip = calculate_tip(bill, service)
+print(tip) """
 
+def find_factors(number):  
+    
