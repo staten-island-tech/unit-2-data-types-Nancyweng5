@@ -3,7 +3,7 @@
 #conditional statement if factor do something
 #print the list
 
-isRich = True
+""" isRich = True
 is21 = True
 
 def canGamble(isRich, is21) : 
@@ -12,4 +12,10 @@ def canGamble(isRich, is21) :
     elif isRich == False and is21 == True:
         print("You are too poor, get out")
     elif isRich == False or is21 == False:
-        print("you cannot play")
+        print("you cannot play") """
+
+""" students = [{"name" : "Nelson"}, {"name" : "Sarah"}]
+for student in students:
+    print(students)
+    print{student['name']} """
+

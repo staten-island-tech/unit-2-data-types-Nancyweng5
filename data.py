@@ -1,4 +1,4 @@
-
+#float adds a decimal point
 """ x = 3
 y = float(3)
 print(x,y) """
@@ -61,7 +61,7 @@ else:
         return "Invalid service level. Please choose from 'bad', 'okay', 'good', or 'great'."
     
     tip = bill * tip_percentage
-    return f"Tip for {service} service: ${tip:.2f}"
+    return f"Tip for {service} service: ${tip:.2f}" #indicates an f string and make sure the tip is rounded to 2 decimal points.
 bill = float(input("Enter the bill amount: $"))
 service = input("Enter the service rating (bad, ok, good, great): ").strip()
 tip = calculate_tip(bill, service)
@@ -69,7 +69,7 @@ print(tip) """
 
 def find_factors(number):  
     factors = []
-    for i in range(1, number + 1):
-        if number % i == 0:
+    for i in range(1, number + 1): #loops through 1 to the input number +1
+        if number % i == 0: 
             factors.append(i)
             return factors
