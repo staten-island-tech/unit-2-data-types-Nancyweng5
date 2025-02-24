@@ -68,8 +68,9 @@ tip = calculate_tip(bill, service)
 print(tip) """
 
 def find_factors(number):  
-    factors = []
-    for i in range(1, number + 1): #loops through 1 to the input number +1
-        if number % i == 0: 
-            factors.append(i)
-            return factors
+    factors = []  #Makes a list for the factors; where all the factors of the number would be
+    for i in range(1, number + 1):  #starts a loop for all the numbers from 1 to the number
+        if number % i == 0:  # checks if i divides number with no remainder, if 0 is a remainder, than i is a factor
+            factors.append(i) # if i is a factor then it is added to the factors list
+    return factors  
+find_factors(6)
