@@ -91,3 +91,13 @@ print(tip) """
     return factors  
 print(find_factors(2525)) # prints the factors of the number """
 
+def find_gcf(a,b):
+    smaller = min(a,b) #starts with the smaller number
+    for i in range(smaller, 0, -1): #loops through all the number from the smaller number to 1 
+        if a % i == 0 and b % i == 0: #if a and b is dived and 0 is the remiander than i is a factor
+            return i 
+    return 1 #if there is no common factor, than the  gcf is 1
+
+a = 4
+b = 16
+print(f"The GCF of {a} and {b} is {find_gcf(a, b)}") #prints the gcf of a and b
