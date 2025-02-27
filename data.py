@@ -17,17 +17,17 @@ print(values[6])
 #allows us to access first and last elements """
 
 
-""""test"
+""" "test"
 ["t","e","s","t"]
 #shows a string which is a list with letters to create a word """
 
 
-""" x = "this is a thing"
+"""x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
 print(z) 
-#splits te string into a new list """
+#splits te string into a new list"""
 
 
 """ sentence = input("enter a sentence: ")
@@ -91,13 +91,13 @@ print(tip) """
     return factors  
 print(find_factors(2525)) # prints the factors of the number """
 
-def find_gcf(a,b):
+""" def find_gcf(a,b):
     smaller = min(a,b) #starts with the smaller number
     for i in range(smaller, 0, -1): #loops through all the number from the smaller number to 1 
-        if a % i == 0 and b % i == 0: #if a and b is dived and 0 is the remiander than i is a factor
+        if a % i == 0 and b % i == 0: #if a and b is divided and 0 is the remiander than i is a factor
             return i 
     return 1 #if there is no common factor, than the  gcf is 1
 
 a = 4
 b = 16
-print(f"The GCF of {a} and {b} is {find_gcf(a, b)}") #prints the gcf of a and b
+print(f"The GCF of {a} and {b} is {find_gcf(a, b)}") #prints the gcf of a and b """
